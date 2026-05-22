@@ -18,6 +18,7 @@ export default function PMInterviewCopilotPage() {
         </h1>
 
         <p className="mt-4 max-w-3xl text-base leading-7 text-gray-300">
+          
   AI-powered PM interview preparation system designed around
   orchestration workflows, eval-driven reliability, retry systems,
   and structured AI outputs.
@@ -49,21 +50,23 @@ export default function PMInterviewCopilotPage() {
   </span>
 </div>
 <div className="mt-5 flex gap-3">
-  <a
-    href="https://github.com/yourusername/pm-interview-copilot"
-    target="_blank"
-    className="rounded-lg border border-gray-800 px-4 py-2 text-sm text-gray-300 transition hover:border-gray-700 hover:text-white"
-  >
-    View GitHub
-  </a>
+<a
+  href="https://github.com/neeli-kumar-3/pm-interview-copilot"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-lg border border-gray-700 bg-[#111111] px-5 py-2.5 text-sm text-gray-200 transition hover:border-gray-500 hover:bg-[#1a1a1a]"
+>
+  View GitHub
+</a>
 
-  <a
-    href="https://your-demo-link.com"
-    target="_blank"
-    className="rounded-lg border border-gray-800 px-4 py-2 text-sm text-gray-300 transition hover:border-gray-700 hover:text-white"
-  >
-    Live Demo
-  </a>
+<a
+  href="https://pm-interview-copilot.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-lg border border-gray-700 bg-[#111111] px-5 py-2.5 text-sm text-gray-200 transition hover:border-gray-500 hover:bg-[#1a1a1a]"
+>
+  Open App
+</a>
 </div>
       </section>
 
