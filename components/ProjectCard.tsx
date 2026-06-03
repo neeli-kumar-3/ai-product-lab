@@ -14,21 +14,21 @@ export default function ProjectCard({
   href,
 }: ProjectCardProps) {
   return (
-    <Link href={href}>
+    <Link href={href} className="block">
       <div className="cursor-pointer rounded-2xl border border-gray-800 bg-[#111111] p-8 transition hover:border-gray-700 hover:bg-[#151515]">
-        <h3 className="text-2xl font-semibold text-white">
+        <h3 className="text-base font-semibold text-white">
           {title}
         </h3>
 
-        <p className="mt-4 leading-7 text-gray-300">
-          {description}
-        </p>
+        <p className="mt-3 text-sm leading-6 text-gray-400">
+  {description}
+</p>
 
         <div className="mt-6 flex flex-wrap gap-3">
           {concepts.map((concept) => (
             <span
               key={concept}
-              className="rounded-full border border-gray-700 px-3 py-1 text-sm text-gray-300"
+              className="rounded-full border border-gray-800 px-2.5 py-1 text-xs text-gray-300"
             >
               {concept}
             </span>

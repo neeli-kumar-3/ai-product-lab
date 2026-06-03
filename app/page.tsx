@@ -6,57 +6,157 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       <Navbar />
 
-      {/* Hero Section */}
-      <section className="mx-auto max-w-5xl px-6 pt-12 pb-12">
-        <p className="mb-3 text-xs uppercase tracking-[0.3em] text-gray-500">
-          AI Build Portfolio
-        </p>
+      {/* About */}
+<section className="mx-auto max-w-5xl px-6 pt-12 pb-8">
+  <h2 className="text-2xl font-semibold tracking-tight">
+    About
+  </h2>
 
-        <h1 className="max-w-4xl text-2xl font-bold tracking-tight md:text-4xl">
-          Designing AI Systems Beyond Prompting
-        </h1>
+  <p className="mt-4 max-w-3xl text-base leading-7 text-gray-300">
+    This portfolio combines enterprise AI experience with hands-on AI product building.
+  </p>
 
-        <p className="mt-4 max-w-3xl text-base leading-7 text-gray-300">
-          Portfolio of AI workflow systems exploring orchestration,
-          eval-driven reliability, structured outputs, retry logic,
-          telemetry, and operational AI product design.
-        </p>
+  <ul className="mt-4 space-y-2 text-gray-300">
+    <li>
+      • Enterprise AI initiatives delivered across customer and product teams
+    </li>
+    <li>
+      • Personal AI prototypes exploring agentic workflows, copilots,
+      reliability systems, evaluations, and AI-assisted decision making
+    </li>
+  </ul>
 
-        <div className="mt-5 flex flex-wrap gap-2 text-xs text-gray-400">
-          <span className="rounded-full border border-gray-800 px-3 py-1">
-            Orchestration
-          </span>
+  <p className="mt-4 max-w-3xl text-base leading-7 text-gray-300">
+  The goal of this portfolio is to showcase AI initiatives delivered across my professional experience and personal projects, along with the concepts, tools, and workflows used to build them.
+  </p>
+</section>
 
-          <span className="rounded-full border border-gray-800 px-3 py-1">
-            Eval Systems
-          </span>
+{/* Enterprise AI Experience */}
 
-          <span className="rounded-full border border-gray-800 px-3 py-1">
-            Retry Logic
-          </span>
+<section className="mx-auto max-w-5xl px-6 pb-8">
+  <div className="mb-6">
+    <h2 className="text-2xl font-semibold tracking-tight">
+      Professional AI Experience
+    </h2>
+    <p className="mt-2 text-sm text-gray-500">
+  Selected examples only. Details are intentionally limited due to customer confidentiality and privacy considerations.
+</p>
+  </div>
 
-          <span className="rounded-full border border-gray-800 px-3 py-1">
-            Structured Outputs
-          </span>
+  <div className="space-y-4">
 
-          <span className="rounded-full border border-gray-800 px-3 py-1">
-            Telemetry
-          </span>
+<details className="rounded-xl border border-gray-800 bg-[#111111] p-5">
+<summary className="cursor-pointer text-base font-semibold text-white">
+    UiPath (2024–2025)
+  </summary>
 
-          <span className="rounded-full border border-gray-800 px-3 py-1">
-            AI Reliability
-          </span>
-        </div>
-      </section>
+  <div className="mt-5 space-y-5 text-sm text-gray-300">
+
+    <div>
+    <div className="pl-4">
+      <p className="font-medium text-white">
+        • Dynamic API Connector Generation with AI
+      </p>
+      <p className="mt-1 ml-2 text-gray-400">
+        Built AI agent to create and configure enterprise connectors (API integrations) on the fly, reducing integration effort across business systems.
+      </p>
+    </div>
+    </div>
+
+    <div>
+    <div className="pl-4">
+      <p className="font-medium text-white">
+        • Automatic Sales Lead Assignment
+      </p>
+      <p className="mt-1 ml-2 text-gray-400">
+        Designed an agentic workflow to automatically route incoming sales leads to the most appropriate seller based on territory, workload, and business rules.
+      </p>
+    </div>
+    </div>
+
+    <div>
+    <div className="pl-4">
+      <p className="font-medium text-white">
+        • AI-Powered Payroll Automation
+      </p>
+      <p className="mt-1 ml-2 text-gray-400">
+        Built an agentic workflow for a multi-location restaurant operator to automate payroll processing across fragmented HR systems.
+      </p>
+    </div>
+    </div>
+
+    <div>
+    <div className="pl-4">
+      <p className="font-medium text-white">
+        • Data Fabric as AI Context Layer
+      </p>
+      <p className="mt-1 ml-2 text-gray-400">
+        Designed unified business entities by connecting systems such as Workday, Bamboo HR, Salesforce, and other enterprise applications.
+      </p>
+    </div>
+    </div>
+
+    <div>
+    <div className="pl-4">
+      <p className="font-medium text-white">
+        • AI-Assisted Business Analysis
+      </p>
+      <p className="mt-1 ml-2 text-gray-400">
+        Leveraged AI agents and Data Fabric context to accelerate operational analysis and business reviews.
+      </p>
+    </div>
+    </div>
+
+  </div>
+</details>
+
+<details className="rounded-xl border border-gray-800 bg-[#111111] p-5">
+<summary className="cursor-pointer text-base font-semibold text-white">
+    Amazon Pay (2022–2023)
+  </summary>
+
+  <div className="mt-5 text-sm text-gray-300">
+  <div className="pl-4">
+    <p className="font-medium text-white">
+      • AI-Assisted Product Development
+    </p>
+    <p className="mt-1 ml-2 text-gray-400">
+      Leveraged approved AI capabilities to improve BRDs, product write-ups, requirement clarity, and stakeholder communication.
+    </p>
+  </div>
+  </div>
+</details>
+
+<details className="rounded-xl border border-gray-800 bg-[#111111] p-5">
+<summary className="cursor-pointer text-base font-semibold text-white">
+
+    Voice AI Startup / Co-Founder (2021–2022)
+  </summary>
+
+  <div className="mt-5 text-sm text-gray-300">
+  <div className="pl-4">
+    <p className="font-medium text-white">
+      • AI-Powered Patient Helpline
+    </p>
+    <p className="mt-1 ml-2 text-gray-400">
+      Built an AI-powered voice solution using Google Dialogflow and telephony integrations to automate patient helplines before the current LLM wave.
+    </p>
+  </div>
+  </div>
+</details>
+
+
+  </div>
+</section>
 
       {/* Featured Projects */}
       <section className="mx-auto max-w-5xl px-6 pb-14">
       <div className="mb-6">
   <h2 className="text-2xl font-semibold tracking-tight">
-    Featured Projects
+    AI Product Lab
   </h2>
 </div>
-
+<div className="space-y-4">
         <ProjectCard
           title="PM Interview Copilot"
           href="/projects/pm-interview-copilot"
@@ -70,67 +170,48 @@ export default function Home() {
             "Workflow Design",
           ]}
         />
+        <ProjectCard
+  title="AI Payments Reliability Copilot (In Progress)"
+  href="/"
+  description="Currently building. Agentic investigation workflow for payment failures, incident triage, root-cause analysis, and reliability operations."
+  concepts={[
+    "Agentic Workflows",
+    "Root Cause Analysis",
+    "Human-in-the-Loop",
+    "Reliability",
+  ]}
+       />
+</div>
       </section>
 
-      {/* Philosophy */}
-      <section className="mx-auto max-w-5xl px-6 pb-20">
-        <div className="mb-6">
-          <p className="mb-2 text-xs uppercase tracking-[0.3em] text-gray-500">
-            Philosophy
-          </p>
+      <footer className="mx-auto max-w-5xl px-6 py-10 text-xs text-gray-500">
+  <div className="border-t border-gray-800 pt-6">
+    <p>
+      Built with Next.js, Cursor, Claude Code, and OpenAI APIs.
+    </p>
+<div className="mt-2 flex gap-4">
+  <a
+    href="https://www.linkedin.com/in/neelikumar3"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-gray-300"
+  >
+    LinkedIn
+  </a>
 
-          <h2 className="text-2xl font-semibold tracking-tight">
-            Reliable AI systems require more than prompting.
-          </h2>
-        </div>
+  <a
+    href="https://github.com/neeli-kumar-3"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-gray-300"
+  >
+    GitHub
+  </a>
+</div>
 
-        <div className="grid gap-4 md:grid-cols-2">
-          <div className="rounded-2xl border border-gray-800 bg-[#111111] p-5">
-            <h3 className="text-base font-semibold">
-              Orchestration Over Prompting
-            </h3>
+  </div>
+</footer>
 
-            <p className="mt-3 text-sm leading-7 text-gray-300">
-              Reliable AI products require workflows, retries,
-              evaluation systems, and orchestration layers —
-              not just single prompts.
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-gray-800 bg-[#111111] p-5">
-            <h3 className="text-base font-semibold">
-              Evals Drive Reliability
-            </h3>
-
-            <p className="mt-3 text-sm leading-7 text-gray-300">
-              AI quality becomes scalable when prompts are paired
-              with systematic evaluation and refinement workflows.
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-gray-800 bg-[#111111] p-5">
-            <h3 className="text-base font-semibold">
-              Structured Outputs Matter
-            </h3>
-
-            <p className="mt-3 text-sm leading-7 text-gray-300">
-              Structured outputs reduce frontend fragility and
-              improve deterministic AI workflow behavior.
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-gray-800 bg-[#111111] p-5">
-            <h3 className="text-base font-semibold">
-              Observability Is Essential
-            </h3>
-
-            <p className="mt-3 text-sm leading-7 text-gray-300">
-              AI systems require telemetry, retry visibility,
-              and operational insight to debug failures effectively.
-            </p>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
