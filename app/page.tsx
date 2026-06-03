@@ -9,7 +9,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="mx-auto max-w-5xl px-6 pt-12 pb-12">
         <p className="mb-3 text-xs uppercase tracking-[0.3em] text-gray-500">
-          AI Product Lab
+          AI Build Portfolio
         </p>
 
         <h1 className="max-w-4xl text-2xl font-bold tracking-tight md:text-4xl">

@@ -8,7 +8,7 @@ export default function Navbar() {
           href="/"
           className="text-lg font-semibold tracking-wide"
         >
-          AI Product Lab
+          AI Build Portfolio
         </Link>
 
         <div className="flex items-center gap-6 text-sm text-gray-300">

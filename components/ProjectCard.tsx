@@ -15,8 +15,7 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <Link href={href}>
-      <div className="rounded-2xl border border-gray-800 bg-[#111111] p-8 transition hover:border-gray-700 hover:bg-[#151515]">
-
+      <div className="cursor-pointer rounded-2xl border border-gray-800 bg-[#111111] p-8 transition hover:border-gray-700 hover:bg-[#151515]">
         <h3 className="text-2xl font-semibold text-white">
           {title}
         </h3>
