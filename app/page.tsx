@@ -7,13 +7,13 @@ export default function Home() {
       <Navbar />
 
       {/* About */}
-<section className="mx-auto max-w-5xl px-6 pt-12 pb-8">
+<section className="mx-auto max-w-5xl px-6 pt-6 pb-8">
   <h2 className="text-2xl font-semibold tracking-tight">
     About
   </h2>
 
-  <p className="mt-4 max-w-3xl text-base leading-7 text-gray-400">
-  This portfolio combines AI initiatives from my professional experience with hands-on AI product development and experimentation.
+  <p className="mt-4 max-w-4xl text-base leading-7 text-gray-400">
+  This portfolio combines AI initiatives from my professional experience with hands-on AI product development.
   </p>
 
   <ul className="mt-4 space-y-2 text-gray-400">
