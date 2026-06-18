@@ -13,7 +13,7 @@ export default function PMInterviewCopilotPage() {
           AI System Case Study
         </p>
 
-        <h1 className="text-3xl font-bold tracking-tight md:text-5xl">
+        <h1 className="text-2xl font-bold tracking-tight md:text-3xl">
           PM Interview Copilot
         </h1>
 

@@ -160,30 +160,30 @@ export default function Home() {
   </h2>
 </div>
 <div className="space-y-4">
-        <ProjectCard
-          title="PM Interview Copilot"
-          href="/projects/pm-interview-copilot"
-          description="AI-powered PM interview preparation workflow using orchestration systems, eval layers, retry logic, structured outputs, and telemetry."
-          concepts={[
-            "LLM Evals",
-            "Orchestration",
-            "Retry Logic",
-            "Structured Outputs",
-            "Telemetry",
-            "Workflow Design",
-          ]}
-        />
-        <ProjectCard
-  title="AI Payments Reliability Copilot (In Progress)"
-  href="/"
+<ProjectCard
+  title="PM Interview Copilot"
+  href="/projects/pm-interview-copilot"
+  appUrl="https://pm-interview-copilot.vercel.app/"
+  description="AI-powered PM interview preparation workflow using orchestration systems, eval layers, retry logic, structured outputs, and telemetry."
+  concepts={[
+    "LLM Evals",
+    "AI Workflow Orchestration",
+    "Structured Outputs",
+    "Quality Assurance",
+  ]}
+/>
+<ProjectCard
+  title="AI Payments Analysis Copilot (In Progress)"
+  href="/projects/ai-payments-analysis-copilot"
+  appUrl="https://ai-payments-reliability-copilot.vercel.app/"
   description="Currently building. Agentic investigation workflow for payment failures, incident triage, root-cause analysis, and reliability operations."
   concepts={[
-    "Agentic Workflows",
-    "Root Cause Analysis",
+    "Multi-Agent Orchestration",
+    "LangGraph",
+    "Tool Calling",
     "Human-in-the-Loop",
-    "Reliability",
   ]}
-       />
+/>
 </div>
       </section>
 
